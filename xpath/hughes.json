@@ -1,0 +1,124 @@
+{
+    "default": {
+        "title": "//title/text()",
+        "slug": "//title/text()",
+        "total_duration_in_months": "//div[@class='program-list-section']/div[@class='brandLogo col-3'][5]/p/text()",
+        "batch_timings":"//div[@class='program-list-section']/div[@class='brandLogo col-3'][1]/text()",
+        "batch_start_date": "//div[@class='batch_n']/div[@class='b-inner-date']/text()",
+        "batch_end_date": "//section[@class='hg-wrapper HG_012_list_programme ']/div[@class='inner-wrapper-2']/div[@class='program-list-section']/div[@class='brandLogo col-3'][2]/p[2]/text()",
+        "get_content": "//div[@class='supply_desc']/p",
+        "get_instruction_type": "//ul[@class='breadcrumbs']/text()",
+        "learn_type": "//title/text()",
+        "medium": "//ul[@class='breadcrumbs']/text()",
+        "regular_price": "//div[@class='table-wrapper']/table[@class='col-2-table has_total']/tbody/tr[6]/td[2]/strong/text()",
+        "sale_price": "//div[@class='table-wrapper']/table[@class='col-2-table has_total']/tbody/tr[6]/td[2]/strong/text()",
+        "what_will_learn": [
+            "//div[@class='supply_desc']/ul/li",
+            "/text()"
+        ],
+        "target_students": [
+            "//ul[@class='grid-annoying']/li",
+            "/a[@class='show']/div[@class='cnt-rotate']/div[@class='discription']/p"
+        ],
+        "prerequisites": [
+            "//div[@class='el_section']/div[@class='el-row']",
+            "/div/p/text()"
+        ],
+        "generate_id": "//title/text()",
+        "get_topics": [
+            "//div[@id='accordion']/div",
+            "/div[1]/h4/a/text()"
+        ],
+        "reviews": [
+            "//div[@class='learner-spearkers']/div/div/div",
+            "/div/div/h4/text()",
+            "/div/p/text()",
+            "/div/div/div[@class='cover_avator']/img[@class='img-responsive']/@src"
+        ],
+        "Instructors": [
+            "//div[@class='grid-panel pd_section']/div[@class='grid-tile']",
+            "//div[@class='grid-panel pd_section']/div[@class='grid-tile']",
+            "/a/div[@class='sub-description']/h4",
+            "/a/div[@class='sub-description']/p",
+            "/a/div[@class='description']/p",
+            "//div[@class='grid-panel pd_section']/div[@class='grid-tile']",
+            "/a/div[@class='faculty_avtr']/img/@src"
+        ],
+
+        "get_video_url": [
+            "//div[@class='pgp_inner_graphic']",
+            "/iframe/@src"
+        ],
+        "generate_description": [
+            "//div[@class='pgp-first-section']/div[@class='pgp_inner_text']/p",
+            "/text()"
+        ],
+        "get_all_course_urls": [
+            "//div/ul/li/ul/li/div[@class='mob_menu']/ul/li",
+            "/a/@href"
+        ],
+        "skills_gained":["//div[@class='inner-wrapper']/div[@class='pgp_benefits']/div[@class='pgp_b_boxes']","/div[@class='action_div']/p"]
+    },
+    "international": {
+        "title": "//div[@class='banner-content']/h1[1]/text()",
+        "slug": "//div[@class='banner-content']/h1[1]/text()",
+        "total_duration_in_months": "//div[@class='coursePeriod']/div[@class='months pad-bottom-10']/span[@class='monthsOfCourse']/text()",
+        "batch_start_date": "//div[@class='startDate pad-bottom-10']/span/text()",
+        "get_content": "//div[@class='cornell-overview-container']/div[@class='overview-block']",
+        "get_instruction_type": "//div[@id='certification-section'][2]/div[@class='cornell-cer-container']/div[@class='left-cer']/ul/li[6]/text()",
+        "learn_type": "//div[@class='banner-components']/h1/text()",
+        "medium": "//div[@id='certification-section'][2]/div[@class='cornell-cer-container']/div[@class='left-cer']/ul/li[5]",
+        "regular_price": "//div[@id='certification-section'][2]/div[@class='cornell-cer-container']/div[@class='left-cer']/ul/li[3]/text()",
+        "sale_price": "//div[@id='certification-section'][2]/div[@class='cornell-cer-container']/div[@class='left-cer']/ul/li[3]/text()",
+        "what_will_learn": [
+            "//div[@class='cornell-keyfeature-container']/div[@class='keyfeature-block']/ol/li",
+            "/div/p[1]/text()"
+        ],
+        "target_students": [
+            "//div[@class='cornell-eligibility-container']/ul[2]/li",
+            "/text()"
+        ],
+        "prerequisites": [
+            "//div[@class='cornell-eligibility-container']/ul[1]/li",
+            "/span/text()"
+        ],
+        "generate_id": "/html/head/link[@rel='shortlink']/@href",
+        "get_topics": [
+            "//div[@id='accordion']/div[@class='panel panel-default']",
+            "/div[@class='panel-heading']/h4[@class='panel-title']/text()"
+        ],
+        "reviews": [
+            "//div[@class='learner-spearkers']/div/div/div",
+            "/div/div/h4/text()",
+            "/div/p/text()",
+            "/div/div/div[@class='cover_avator']/img[@class='img-responsive']/@src"
+        ],
+        "Instructors": [
+            "//div[@class='faculity-wrapper']/div[@class='faculity-block']",
+            "//div[@class='faculity-wrapper']/div[@class='faculity-block']",
+            "/div[@class='faculity-detail']/h3/text()",
+            "/div[@class='faculity-detail']/p/text()",
+            "/div[@class='ppoverlap show']/p/text()",
+            "//div[@class='faculity-wrapper']/div[@class='faculity-block']",
+            "/div[@class='faculity-image']/img/@src"
+        ],
+        "get_video_url": [
+            "//*[@id='view_How_it_works']/div/div/p",
+            "/iframe/@src"
+        ],
+        "generate_description": [
+            "//div[@class='cornell-overview-container']/div[@class='overview-block']/p",
+            "/text()"
+        ],
+        "get_all_course_urls": [
+            "/html/body/section[1]/div/div/div[1]/div[2]/div[1]/ul/li",
+            "/div[2]/div[1]/div/h2/a/@href"
+        ]
+    },
+    "regex_check": {
+        "international_url": [
+            "https://talentedge.com/ecornell/"
+        ]
+    }
+}
+
