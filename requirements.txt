@@ -1,0 +1,6 @@
+requests
+boto3
+scrapy
+scrapy-rotating-proxies
+python-dotenv
+brotli
