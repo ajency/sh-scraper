@@ -1,0 +1,11 @@
+{
+    "subtitle":	"English" ,
+    "import_source" : "TalentEdge",
+    "provider": "talentEdge",
+    "status" : "draft",
+    "pricing" : { "pricing_type": "Paid"},
+    "detail_information" :{"languages": "English"},
+    "accessibilities": ["Desktop","Mobile"],
+    "availabilities": ["Downloadable Courses"],
+    "level" : "Intermediate"
+}

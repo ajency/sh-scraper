@@ -1,0 +1,11 @@
+
+{
+    "subtitle":	"English" ,
+    "import_source" : "nulearn",
+    "status" : "draft",
+    "learn_type":  "Professional Executive Education",
+    "pricing" : { "pricing_type": "Paid", "currency" : "INR" },
+    "detail_information" :{"languages": "English", "accessibility": [ "Medium",	"Mobile/Desktop"],
+        "availabilities": "Limited Access"},
+    "medium":{"default_display_label":"Online Classes, 2 visits of the campus", "slug":"online-classes-2-visits" }
+}
