@@ -1,0 +1,307 @@
+{
+    "default": {
+        "title": "//div[@class='row']/div[@class='col-md-12']/h1[@class='productTopHeading']/text()",
+        "slug": "//div[@class='row']/div[@class='col-md-12']/h1[@class='productTopHeading']/text()",
+        "subtitle":"//div[@class='row']/div[@class='col-md-12']/div[@class='oneLiner']/text()",
+        "total_duration_in_hrs": "//div[@class='col-md-12 mt-2']/span[@class='mr-2'][2]/span/text()",
+        "batch_timings":"//div[@class='program-list-section']/div[@class='brandLogo col-3'][1]/text()",
+        "batch_start_date": "//div[@class='batch_n']/div[@class='b-inner-date']/text()",
+        "get_content": "//div[@class='mobDivBody']/div[@id='aboutBody']/div[@class='viewMoreDescription']/p",
+        "get_instruction_type": "//ul[@class='breadcrumbs']/text()",
+        "learn_type": "//div[@class='row']/div[@class='col-md-12']/h1[@class='productTopHeading']",
+        "medium": "//ul[@class='breadcrumbs']/text()",
+        "regular_price": "//div[@id='MarketPriceDiv']/div[@class='col-md-6 col-6 text-left']/span[@id='mnumber']/s/text()",
+        "sale_price": "//div[@id='MarketPriceDiv']/div[@class='col-md-6 col-6 text-left redTxt']/span[@id='opnumber']/text()",
+        "what_will_learn": [
+            "//div[@class='supply_desc']/ul/li",
+            "/text()"
+        ],
+        "target_students": [
+            "//ul[@class='grid-annoying']/li",
+            "/a[@class='show']/div[@class='cnt-rotate']/div[@class='discription']/p"
+        ],
+        "prerequisites": [
+            "//div[@id='prerequisitesBody']/div[@class='row']/div[@class='col-md-12']/ul[@class='liProLrn']/li",
+            "/text()"
+        ],
+        "generate_id": "//div[@class='leftSideVidImage']/div[@class='row']/div[@class='col-md-12']/h1[@class='productTopHeading']/text()",
+        "get_topics": [
+            "//div[@class='MainSyllabus mt-3']/div[@id='accordion']/div[@class='card']",
+            "/div[@id='sectionHeader5']/h5[@class='mb-0']/button[@class='btn collapsed']/span[@class='float-left text-left secInfo']/b/text()"
+        ],
+        "reviews": [
+            "//div[@class='col-lg-12']/div[@class='rewInfo']/ul[@class='rewList']/li",
+            "/div[@class='row']/div[@class='col-md-4 divProInfo']/div[@class='rewProfile']/div[@class='proRight']/h3[@class='ProName']/text()",
+            "/div[@class='row']/div[@class='col-md-8']/div[@class='simpleViewMore']/div[@class='viewMoreDescription']/p/text()",
+            "/div/div/div[@class='cover_avator']/img[@class='img-responsive']/@src"
+        ],
+        "Instructors": [
+            "//div[@class='container mt-3']/div[@class='row']/div[@class='col-lg-8']/div[@id='instructorsNav']",
+            "//div[@class='row instructorDiv']",
+            "/div[@class='col-md-4']/div[@class='divProInsInfo']/h4[@class='mt-3']/b/a/text()",
+            "/a/div[@class='sub-description']/p",
+            "/div[@class='col-md-8 instructorAboutMe simpleViewMore']/div[@class='viewMoreDescription']/p",
+            "//div[@class='row instructorDiv']",
+            "/div[@class='col-md-4']/div[@class='divProIns text-center']/a/img[@class='img-fluid']/@src"
+        ],
+
+        "get_video_url": [
+            "//div[@class='embed-responsive embed-responsive-16by9 mb-3']/iframe[@class='embed-responsive-item']",
+            "/@src"
+        ],
+        "generate_description": [
+            "//div[@class='mobDivBody']/div[@id='aboutBody']/div[@class='viewMoreDescription']/p",
+            ""
+        ],
+        "get_all_course_urls": [
+            "//li",
+            "/div/div[@class='divThumb']/div/div/a/@href"
+        ],
+        "skills_gained":["//div[@class='inner-wrapper']/div[@class='pgp_benefits']/div[@class='pgp_b_boxes']","/div[@class='action_div']/p"]
+    },
+    "deals": {
+        "title": "//section[1]/div[@class='divBreadCrumb']/div[@class='content_block']/div[@class='row']/div[@class='col-lg-12']/span[3]/text()",
+        "slug": "//section[1]/div[@class='divBreadCrumb']/div[@class='content_block']/div[@class='row']/div[@class='col-lg-12']/span[3]/text()",
+        "subtitle":"//div[@class='row']/div[@class='col-lg-12 whiteTxt mob-text-left pt-3']/p[@class='edegreeOneLiner text-center']/text()",
+        "total_duration_in_hrs": "//ul[@class='EdgreeInfoList']/li[3]/span[@class='edegreeInfoListSpan']/text()",
+        "batch_timings":"//div[@class='program-list-section']/div[@class='brandLogo col-3'][1]/text()",
+        "batch_start_date": "//div[@class='batch_n']/div[@class='b-inner-date']/text()",
+        "get_content": "//section[@id='whyThisDeal']/div[@class='aboutDeal']/p",
+        "get_instruction_type": "//ul[@class='breadcrumbs']/text()",
+        "learn_type": "//div[@class='row']/div[@class='col-md-12']/h1[@class='productTopHeading']",
+        "medium": "//ul[@class='breadcrumbs']/text()",
+        "regular_price": "//div[@id='MarketPriceDiv']/div[@class='col-md-6 col-6 text-left']/span[@id='mnumber']/s/text()",
+        "sale_price": "//div[@id='MarketPriceDiv']/div[@class='col-md-6 col-6 text-left redTxt']/span[@id='mnumber']/text()",
+        "what_will_learn": [
+            "//div[@class='supply_desc']/ul/li",
+            "/text()"
+        ],
+        "target_students": [
+            "//ul[@class='grid-annoying']/li",
+            "/a[@class='show']/div[@class='cnt-rotate']/div[@class='discription']/p"
+        ],
+        "prerequisites": [
+            "//div[@class='el_section']/div[@class='el-row']",
+            "/div/p/text()"
+        ],
+        "generate_id": "//section[1]/div[@class='divBreadCrumb']/div[@class='content_block']/div[@class='row']/div[@class='col-lg-12']/span[3]/text()",
+        "get_topics": [
+            "//section/div/div/div/section/a",
+            "/div"
+        ],
+        "reviews": [
+            "//div[@class='col-lg-12']/div[@class='rewInfo']/ul[@class='rewList']/li",
+            "/div[@class='row']/div[@class='col-md-4 divProInfo']/div[@class='rewProfile']/div[@class='proRight']/h3[@class='ProName']/text()",
+            "/div[@class='row']/div[@class='col-md-8']/div[@class='simpleViewMore']/div[@class='viewMoreDescription']/p/text()",
+            "/div/div/div[@class='cover_avator']/img[@class='img-responsive']/@src"
+        ],
+        "Instructors": [
+            "//div[@class='dealInstructorWrapper col-12 clearfix position-relative mb-3']",
+            "//div[@class='dealInstructorWrapper col-12 clearfix position-relative mb-3']",
+            "/div/div/div/h4/text()",
+            "/a/div[@class='sub-description']/p",
+            "/div/div[@class='viewMoreDescription']/div/p",
+            "//div[@class='dealInstructorWrapper col-12 clearfix position-relative mb-3']",
+            "/div/img/@src"
+        ],
+
+        "get_video_url": [
+            "//div[@class='embed-responsive embed-responsive-16by9 mb-3']/iframe[@class='embed-responsive-item']",
+            "/@src"
+        ],
+        "generate_description": [
+            "//section[@id='whyThisDeal']/div[@class='aboutDeal']/p",
+            ""
+        ],
+        "get_all_course_urls": [
+            "//li",
+            "/div/div[@class='divThumb']/div/div/a/@href"
+        ],
+        "skills_gained":["//div[@class='inner-wrapper']/div[@class='pgp_benefits']/div[@class='pgp_b_boxes']","/div[@class='action_div']/p"]
+    },
+    "edegrees": {
+        "title": "//div[@class='divBreadCrumb']/div[@class='container']/div[@class='row']/div[@class='col-lg-12']/span/b/text()",
+        "slug": "//div[@class='divBreadCrumb']/div[@class='container']/div[@class='row']/div[@class='col-lg-12']/span/b/text()",
+        "subtitle":"//section[@id='edegreeProductSecOne']/div[@class='container']/div[@class='row']/div[@class='col-lg-12 whiteTxt mob-text-left pt-3']/p[@class='edegreeOneLiner']/text() ",
+        "total_duration_in_hrs": "//ul[@class='EdgreeInfoList']/li[4]/span[@class='edegreeInfoListSpan']/text()",
+        "batch_timings":"//div[@class='program-list-section']/div[@class='brandLogo col-3'][1]/text()",
+        "batch_start_date": "//div[@class='batch_n']/div[@class='b-inner-date']/text()",
+        "get_content": "//div[@class='edegreeSection position-relative']/div[@class='text-left p-0']/p[@class='mt-3 mb-3']",
+        "get_instruction_type": "//ul[@class='breadcrumbs']/text()",
+        "learn_type": "//div[@class='divBreadCrumb']/div[@class='container']/div[@class='row']/div[@class='col-lg-12']/span/b/text()",
+        "medium": "//ul[@class='breadcrumbs']/text()",
+        "regular_price": "//div[@class='productPrice']/div[@id='MarketPriceDiv']/div[@class='col-md-6 col-6 text-left'][2]/span[@class='stk_real']/text()",
+        "sale_price": "//div[@class='productPrice']/div[@id='MarketPriceDiv']/div[@class='col-md-6 col-6 text-left redTxt']/span/text()",
+        "what_will_learn": [
+            "//div[@id='benefitsSection']/div[@class='col-lg-8']/div[@class='edegreeSection edegreeHeight']/ul/li",
+            "/text()"
+        ],
+        "target_students": [
+            "//ul[@class='grid-annoying']/li",
+            "/a[@class='show']/div[@class='cnt-rotate']/div[@class='discription']/p"
+        ],
+        "prerequisites": [
+            "//div[@class='el_section']/div[@class='el-row']",
+            "/div/p/text()"
+        ],
+        "generate_id": "//div[@class='divBreadCrumb']/div[@class='container']/div[@class='row']/div[@class='col-lg-12']/span/b/text()",
+        "get_topics": [
+            "//div[@class='text-left p-0']/div[@class='E-degSylWrap mt-4']",
+            "/h4[@class='curriculumName']"
+        ],
+        "reviews": [
+            "//div[@class='col-lg-12']/div[@class='rewInfo']/ul[@class='rewList']/li",
+            "/div[@class='row']/div[@class='col-md-4 divProInfo']/div[@class='rewProfile']/div[@class='proRight']/h3[@class='ProName']/text()",
+            "/div[@class='row']/div[@class='col-md-8']/div[@class='simpleViewMore']/div[@class='viewMoreDescription']/p/text()",
+            "/div/div/div[@class='cover_avator']/img[@class='img-responsive']/@src"
+        ],
+        "Instructors": [
+            "//div[@class='edegreeInstructorWrapper col-12 clearfix position-relative mb-3']",
+            "//div[@class='edegreeInstructorWrapper col-12 clearfix position-relative mb-3']",
+            "/div/div/div/h4/text()",
+            "/a/div[@class='sub-description']/p",
+            "/div/div[@class='viewMoreDescription']/div/p",
+            "//div[@class='edegreeInstructorWrapper col-12 clearfix position-relative mb-3']",
+            "/div/img/@src"
+        ],
+
+        "get_video_url": [
+            "//div[@class='embed-responsive embed-responsive-16by9 mb-3']/iframe[@class='embed-responsive-item']",
+            "/@src"
+        ],
+        "generate_description": [
+            "//div[@id='whyThisEdegreeSection']/div[@class='simpleViewMore']/div[@class='viewMoreDescription']",
+            ""
+        ],
+        "get_all_course_urls": [
+            "//li",
+            "/div/div[@class='divThumb']/div/div/a/@href"
+        ],
+        "skills_gained":["//div[@id='featuresSection1']/div[@class='col-lg-8']/div[@class='edegreeSection']/p[@class='mt-3 mb-3']"]
+    },
+    "paths": {
+        "title": "//section[@class='divBreadCrumb']/div[@class='container']/div[@class='row']/div[@class='col-lg-12']/span/text()",
+        "slug": "//section[@class='divBreadCrumb']/div[@class='container']/div[@class='row']/div[@class='col-lg-12']/span/text()",
+        "subtitle":"//div[@class='container pathsHeroDivContent']/div[@class='row']/div[@class='col-lg-6 verticallyCenter']/p[@class='Descp centerTxt']/text()",
+        "total_duration_in_hrs": "//div[@class='container pathsHeroDivContent']/div[@class='row']/div[@class='col-lg-6 verticallyCenter']/ul[@class='lstFeatures centerTxt']/li[3]/text()",
+        "batch_timings":"//div[@class='program-list-section']/div[@class='brandLogo col-3'][1]/text()",
+        "batch_start_date": "//div[@class='batch_n']/div[@class='b-inner-date']/text()",
+        "get_content": "//div[@class='mobDivBody']/div[@id='aboutBody']/div[@class='viewMoreDescription']/p",
+        "get_instruction_type": "//ul[@class='breadcrumbs']/text()",
+        "learn_type": "//div[@class='row']/div[@class='col-md-12']/h1[@class='productTopHeading']",
+        "medium": "//ul[@class='breadcrumbs']/text()",
+        "regular_price": "///div[@class='productPrice']/div[@id='MarketPriceDiv'][2]/div[@class='col-md-6 col-5 text-left']/span[@id='mnumber']/text()",
+        "sale_price": "//div[@class='productPrice']/div[@id='MarketPriceDiv'][1]/div[@class='col-md-6 col-5 text-left']/span[@id='mnumber']/text()",
+        "what_will_learn": [
+            "//div[@class='supply_desc']/ul/li",
+            "/text()"
+        ],
+        "target_students": [
+            "//ul[@class='grid-annoying']/li",
+            "/a[@class='show']/div[@class='cnt-rotate']/div[@class='discription']/p"
+        ],
+        "prerequisites": [
+            "//div[@class='el_section']/div[@class='el-row']",
+            "/div/p/text()"
+        ],
+        "generate_id": "//section[@class='divBreadCrumb']/div[@class='container']/div[@class='row']/div[@class='col-lg-12']/span/text()",
+        "get_topics": [
+            "//li[@class='track__course']",
+            "/article[@class='course-block--track']/div[@class='course-block']/div[@class='row']/div[@class='col-md-9 plr0 divDesp']/h3[@class='pathCrsHead']"
+        ],
+        "reviews": [
+            "//div[@class='col-lg-12']/div[@class='rewInfo']/ul[@class='rewList']/li",
+            "/div[@class='row']/div[@class='col-md-4 divProInfo']/div[@class='rewProfile']/div[@class='proRight']/h3[@class='ProName']/text()",
+            "/div[@class='row']/div[@class='col-md-8']/div[@class='simpleViewMore']/div[@class='viewMoreDescription']/p/text()",
+            "/div/div/div[@class='cover_avator']/img[@class='img-responsive']/@src"
+        ],
+        "Instructors": [
+            "//div[@class='container mt-3']/div[@class='row']/div[@class='col-lg-8']/div[@id='instructorsNav']",
+            "//div[@class='row instructorDiv']",
+            "/div[@class='col-md-4']/div[@class='divProInsInfo']/h4[@class='mt-3']/b/a/text()",
+            "/a/div[@class='sub-description']/p",
+            "/div[@class='col-md-8 instructorAboutMe simpleViewMore']/div[@class='viewMoreDescription']/p",
+            "//div[@class='row instructorDiv']",
+            "/div[@class='col-md-4']/div[@class='divProIns text-center']/a/img[@class='img-fluid']/@src"
+        ],
+
+        "get_video_url": [
+            "//div[@class='embed-responsive embed-responsive-16by9 mb-3']/iframe[@class='embed-responsive-item']",
+            "/@src"
+        ],
+        "generate_description": [
+            "//div[@class='container pathsHeroDivContent']/div[@class='row']/div[@class='col-lg-6 verticallyCenter']/p[@class='Descp centerTxt']",
+            ""
+        ],
+        "get_all_course_urls": [
+            "//li",
+            "/div/div[@class='divThumb']/div/div/a/@href"
+        ],
+        "skills_gained":["//div[@class='inner-wrapper']/div[@class='pgp_benefits']/div[@class='pgp_b_boxes']","/div[@class='action_div']/p"]
+    },
+    "professional": {
+        "title": "//div[@class='divBreadCrumb']/div[@class='content_block']/div[@class='row']/div[@class='col-lg-12']/span[3]/text()",
+        "slug": "//div[@class='divBreadCrumb']/div[@class='content_block']/div[@class='row']/div[@class='col-lg-12']/span[3]/text()",
+        "subtitle":"//div[@class='divBreadCrumb']/div[@class='content_block']/div[@class='row']/div[@class='col-lg-12']/span[3]/text()",
+        "total_duration_in_hrs": "//div[@class='col-md-12 mt-2']/span[@class='mr-2'][2]/span/text()",
+        "batch_timings":"//div[@class='program-list-section']/div[@class='brandLogo col-3'][1]/text()",
+        "batch_start_date": "//div[@class='batch_n']/div[@class='b-inner-date']/text()",
+        "get_content": "//div[@class='mobDivBody']/div[@id='aboutBody']/div[@class='viewMoreDescription']/p",
+        "get_instruction_type": "//ul[@class='breadcrumbs']/text()",
+        "learn_type": "//div[@class='row']/div[@class='col-md-12']/h1[@class='productTopHeading']",
+        "medium": "//ul[@class='breadcrumbs']/text()",
+        "regular_price": "//div[@class='productPrice']/div[@id='MarketPriceDiv']/div[@class='col-md-6 col-6 text-left'][2]/span[@id='mnumber']/text()",
+        "sale_price": "//div[@id='BFspecialPriceDiv']/div[@class='col-md-6 col-6 text-left RedHighlight']/span[@id='pnumber']/text()",
+        "what_will_learn": [
+            "//div[@class='supply_desc']/ul/li",
+            "/text()"
+        ],
+        "target_students": [
+            "//ul[@class='grid-annoying']/li",
+            "/a[@class='show']/div[@class='cnt-rotate']/div[@class='discription']/p"
+        ],
+        "prerequisites": [
+            "//div[@class='el_section']/div[@class='el-row']",
+            "/div/p/text()"
+        ],
+        "generate_id": "//div[@class='divBreadCrumb']/div[@class='content_block']/div[@class='row']/div[@class='col-lg-12']/span[3]/text()",
+        "get_topics": [
+            "//div[@class='MainSyllabus mt-3']/div[@id='accordion']/div[@class='card']",
+            "/div[@id='sectionHeader5']/h5[@class='mb-0']/button[@class='btn collapsed']/span[@class='float-left text-left secInfo']/b/text()"
+        ],
+        "reviews": [
+            "//div[@class='col-lg-12']/div[@class='rewInfo']/ul[@class='rewList']/li",
+            "/div[@class='row']/div[@class='col-md-4 divProInfo']/div[@class='rewProfile']/div[@class='proRight']/h3[@class='ProName']/text()",
+            "/div[@class='row']/div[@class='col-md-8']/div[@class='simpleViewMore']/div[@class='viewMoreDescription']/p/text()",
+            "/div/div/div[@class='cover_avator']/img[@class='img-responsive']/@src"
+        ],
+        "Instructors": [
+            "//div[@class='container mt-3']/div[@class='row']/div[@class='col-lg-8']/div[@id='instructorsNav']",
+            "//div[@class='row instructorDiv']",
+            "/div[@class='col-md-4']/div[@class='divProInsInfo']/h4[@class='mt-3']/b/a/text()",
+            "/a/div[@class='sub-description']/p",
+            "/div[@class='col-md-8 instructorAboutMe simpleViewMore']/div[@class='viewMoreDescription']/p",
+            "//div[@class='row instructorDiv']",
+            "/div[@class='col-md-4']/div[@class='divProIns text-center']/a/img[@class='img-fluid']/@src"
+        ],
+
+        "get_video_url": [
+            "//div[@class='embed-responsive embed-responsive-16by9 mb-3']/iframe[@class='embed-responsive-item']",
+            "/@src"
+        ],
+        "generate_description": [
+            "//div[@class='mainBanner mb-5']/div[@class='container']/div[@class='row']/div[@class='col-md-12 aboutDeal']",
+            ""
+        ],
+        "get_all_course_urls": [
+            "//li",
+            "/div/div[@class='divThumb']/div/div/a/@href"
+        ],
+        "skills_gained":["//div[@id='certifate']/div[@class='sectionContent row']/div[@class='sectionText col-md-6 col-12']"]
+    },
+    "regex_check": {
+        "international_url": [
+            "https://talentedge.com/ecornell/"
+        ]
+    }
+}
